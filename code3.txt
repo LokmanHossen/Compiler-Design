@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+    int a, b, c, d=1;
+    
+    for(int a=1, a=b+c; a<5;a++,++a){
+        c = a + b;
+        printf("%d",c);
+        a++;
+    }
+
+    for(; ;){
+        c = a + b;
+        printf("%d",c);
+    }
+    
+    return 0;
+}

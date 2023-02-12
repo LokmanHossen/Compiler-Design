@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+    int a, b, c;
+    
+    for(a=1; a<5;a++){
+        c = a + b;
+        printf("%d",c);
+    }
+
+    for(;a<5, b>6 ;)return 0;
+    
+    return 0;
+}
+
